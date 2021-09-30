@@ -1,0 +1,25 @@
+.lead__container{
+    max-width: 984px;
+    margin: 48px auto 0;
+}
+@media (max-width: 1024px){
+    .lead__container{
+        max-width: 928px;
+        margin: auto;
+        margin: 48px auto 0;
+    }
+}
+@media (max-width: 768px){
+    .lead__container{
+        max-width: 768px;
+        margin: auto;
+        margin: 48px auto 0;
+    }
+}
+@media (max-width: 328px){
+    .lead__container{
+        max-width: 328px;
+        margin: auto;
+        margin: 48px auto 0;
+    }
+}

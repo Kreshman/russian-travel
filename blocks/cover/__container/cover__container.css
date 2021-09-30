@@ -1,0 +1,13 @@
+.cover__container{
+    max-width: 1184px;
+    margin: auto;
+    margin-top: 12px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.cover__container:hover{
+    opacity: 0.8;
+}

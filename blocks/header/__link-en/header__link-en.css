@@ -1,0 +1,16 @@
+.header__link-en{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-family: Inter;
+    line-height: 28px;
+    margin: 0;
+    margin-top: 18px;
+    font-weight: 400;
+}
+@media (max-width: 320px){
+    .header__link-en{
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
