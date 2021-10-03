@@ -8,7 +8,6 @@
     font-weight: 900;
     line-height: 100px;
     text-align: center;
-    word-break: break-all;
 }
 @media (max-width: 680px){
     .lead__title{
@@ -22,8 +21,9 @@
         line-height: 46px;
     }
 }
-@media (max-width: 320px){
+@media (max-width: 378px){
     .lead__title{
+        margin-bottom: 16px;
         font-size: 40px;
         line-height: 44px;
         word-break: normal;

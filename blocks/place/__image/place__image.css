@@ -14,10 +14,3 @@
         grid-row: 3/4;
     }
 }
-@media (max-width: 320px){
-    .place__image{
-        margin-top: 32px;
-        grid-column: 1/2;
-        grid-row: 3/4;
-    }
-}

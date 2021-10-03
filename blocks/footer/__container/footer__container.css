@@ -25,10 +25,4 @@
         margin: 64px auto 24px;
     }
 }
-@media (max-width: 320px){
-    .footer__container{
-        flex-direction: column;
-        max-width: 288px;
-        margin: 64px auto 24px;
-    }
-}
+

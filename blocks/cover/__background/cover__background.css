@@ -10,6 +10,7 @@
     text-decoration: none;
     position: relative;
     z-index: 1;
+    margin: auto;
 }
 .cover__background:after{
     content: "";
@@ -19,7 +20,7 @@
     bottom: 0;
     right: 0;
     opacity: 0.3;
-    background-color: black;
+    background-color: #2a2c2f;
     z-index: 0;
 }
 .cover__background:hover:after{
@@ -27,28 +28,24 @@
 }
 @media (max-width: 1188px){
     .cover__background{
-        margin: auto;
         max-width: 1024px;
         min-height: 640px;
     }
 }
 @media (max-width: 1023px){
     .cover__background{
-        margin: auto;
         max-width: 768px;
         min-height: 480px;
     }
 }
 @media (max-width: 767px){
     .cover__background{
-        margin: auto;
         max-width: 500px;
         min-height: 300px;
     }
 }
 @media (max-width: 499px){
     .cover__background{
-        margin: auto;
         max-width: 320px;
         min-height: 200px;
     }

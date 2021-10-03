@@ -1,7 +1,6 @@
 .place__title{
     margin: 0;
     max-width: 460px;
-    max-height: 152px;
     font-family: Inter;
     font-style: normal;
     font-weight: 900;
@@ -28,9 +27,6 @@
 }
 @media (max-width: 320px){
     .place__title{
-        margin: auto;
         width: 288px;
-        font-size: 32px;
-        line-height: 35px;
     }
 }
